@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F8E82AE13E215E30079F026 /* ViewTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8E82AC13E215E30079F026 /* ViewTwo.m */; };
+		2F8E82AF13E215E30079F026 /* ViewTwo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F8E82AD13E215E30079F026 /* ViewTwo.xib */; };
 		2F8F4C4C13DF9DBE0082A31C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8F4C4B13DF9DBE0082A31C /* UIKit.framework */; };
 		2F8F4C4E13DF9DBE0082A31C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8F4C4D13DF9DBE0082A31C /* Foundation.framework */; };
 		2F8F4C5013DF9DBE0082A31C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8F4C4F13DF9DBE0082A31C /* CoreGraphics.framework */; };
@@ -35,24 +37,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F8E82AB13E215E30079F026 /* ViewTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewTwo.h; path = DemoApp.xcodeproj/ViewTwo.h; sourceTree = SOURCE_ROOT; };
+		2F8E82AC13E215E30079F026 /* ViewTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewTwo.m; path = DemoApp.xcodeproj/ViewTwo.m; sourceTree = SOURCE_ROOT; };
+		2F8E82AD13E215E30079F026 /* ViewTwo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewTwo.xib; path = DemoApp.xcodeproj/ViewTwo.xib; sourceTree = SOURCE_ROOT; };
 		2F8F4C4713DF9DBE0082A31C /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F8F4C4B13DF9DBE0082A31C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2F8F4C4D13DF9DBE0082A31C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2F8F4C4F13DF9DBE0082A31C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2F8F4C5313DF9DBE0082A31C /* DemoApp-Info.plist */ = {isa = PBXFileReference; path = "DemoApp-Info.plist"; sourceTree = "<group>"; };
+		2F8F4C5313DF9DBE0082A31C /* DemoApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoApp-Info.plist"; sourceTree = "<group>"; };
 		2F8F4C5513DF9DBE0082A31C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2F8F4C5713DF9DBE0082A31C /* DemoApp-Prefix.pch */ = {isa = PBXFileReference; path = "DemoApp-Prefix.pch"; sourceTree = "<group>"; };
+		2F8F4C5713DF9DBE0082A31C /* DemoApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoApp-Prefix.pch"; sourceTree = "<group>"; };
 		2F8F4C5813DF9DBE0082A31C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2F8F4C5A13DF9DBE0082A31C /* DemoAppAppDelegate.h */ = {isa = PBXFileReference; path = DemoAppAppDelegate.h; sourceTree = "<group>"; };
+		2F8F4C5A13DF9DBE0082A31C /* DemoAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoAppAppDelegate.h; sourceTree = "<group>"; };
 		2F8F4C5B13DF9DBE0082A31C /* DemoAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoAppAppDelegate.m; sourceTree = "<group>"; };
 		2F8F4C5E13DF9DBE0082A31C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		2F8F4C6013DF9DBE0082A31C /* DemoAppViewController.h */ = {isa = PBXFileReference; path = DemoAppViewController.h; sourceTree = "<group>"; };
+		2F8F4C6013DF9DBE0082A31C /* DemoAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoAppViewController.h; sourceTree = "<group>"; };
 		2F8F4C6113DF9DBE0082A31C /* DemoAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoAppViewController.m; sourceTree = "<group>"; };
 		2F8F4C6413DF9DBE0082A31C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DemoAppViewController.xib; sourceTree = "<group>"; };
 		2F8F4C6B13DF9DBE0082A31C /* DemoAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F8F4C7313DF9DBF0082A31C /* DemoAppTests-Info.plist */ = {isa = PBXFileReference; path = "DemoAppTests-Info.plist"; sourceTree = "<group>"; };
+		2F8F4C7313DF9DBF0082A31C /* DemoAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoAppTests-Info.plist"; sourceTree = "<group>"; };
 		2F8F4C7513DF9DBF0082A31C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2F8F4C7713DF9DBF0082A31C /* DemoAppTests-Prefix.pch */ = {isa = PBXFileReference; path = "DemoAppTests-Prefix.pch"; sourceTree = "<group>"; };
+		2F8F4C7713DF9DBF0082A31C /* DemoAppTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoAppTests-Prefix.pch"; sourceTree = "<group>"; };
 		2F8F4C7813DF9DBF0082A31C /* DemoAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoAppTests.h; sourceTree = "<group>"; };
 		2F8F4C7A13DF9DBF0082A31C /* DemoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoAppTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,6 +118,9 @@
 		2F8F4C5113DF9DBE0082A31C /* DemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				2F8E82AB13E215E30079F026 /* ViewTwo.h */,
+				2F8E82AC13E215E30079F026 /* ViewTwo.m */,
+				2F8E82AD13E215E30079F026 /* ViewTwo.xib */,
 				2F8F4C5A13DF9DBE0082A31C /* DemoAppAppDelegate.h */,
 				2F8F4C5B13DF9DBE0082A31C /* DemoAppAppDelegate.m */,
 				2F8F4C5D13DF9DBE0082A31C /* MainWindow.xib */,
@@ -225,6 +233,7 @@
 				2F8F4C5613DF9DBE0082A31C /* InfoPlist.strings in Resources */,
 				2F8F4C5F13DF9DBE0082A31C /* MainWindow.xib in Resources */,
 				2F8F4C6513DF9DBE0082A31C /* DemoAppViewController.xib in Resources */,
+				2F8E82AF13E215E30079F026 /* ViewTwo.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +272,7 @@
 				2F8F4C5913DF9DBE0082A31C /* main.m in Sources */,
 				2F8F4C5C13DF9DBE0082A31C /* DemoAppAppDelegate.m in Sources */,
 				2F8F4C6213DF9DBE0082A31C /* DemoAppViewController.m in Sources */,
+				2F8E82AE13E215E30079F026 /* ViewTwo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +453,7 @@
 				2F8F4C8013DF9DBF0082A31C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F8F4C8113DF9DBF0082A31C /* Build configuration list for PBXNativeTarget "DemoAppTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +462,7 @@
 				2F8F4C8313DF9DBF0082A31C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
